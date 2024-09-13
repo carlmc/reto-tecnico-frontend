@@ -11,7 +11,7 @@ const Header = () => {
                 </div>
                 <div className="wrapper__call">
                     <p className="wrapper__call--text">¡Compra por este medio!</p>
-                    <a href="" className="wrapper__call--number">
+                    <a href="tel:(01) 411 6001" className="wrapper__call--number">
                         <img src={phone} alt="phone" />
                         (01) 411 6001
                     </a>
