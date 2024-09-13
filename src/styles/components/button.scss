@@ -1,0 +1,41 @@
+.button {
+    appearance: none;
+    outline: none;
+    display: flex;
+    padding: 18px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 40px;
+    border: 2px solid #03050f;
+    background: #03050f;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+
+    @media (max-width: 480px) {
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.button:hover {
+    background: white;
+    color: #03050f;
+}
+  
+.button--secondary {
+    background: #ff1c44;
+    border: 2px solid #ff1c44;
+}
+
+.button--secondary:hover {
+    color: #ff1c44;
+}

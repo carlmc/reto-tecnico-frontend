@@ -1,0 +1,38 @@
+.checkbox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 12px;
+    align-items: center;
+
+    &__box {
+        width: 20px;
+        height: 20px;
+        padding: 2px;
+        border-radius: 4px;
+        border: 1px solid #03050f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &--checked {
+            background: #03050f;
+        }
+    }
+
+    .errorB {
+        border: 1px solid #e9163c;
+    }
+
+    &__label {
+        font-size: 14px;
+        color: #03050f;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+    }
+
+    .errorL {
+        color: #e9163c;
+    }
+}

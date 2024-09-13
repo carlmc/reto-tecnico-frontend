@@ -1,0 +1,48 @@
+.input {
+    width: 100%;
+    height: 58px;
+    padding: 8px 16px;
+    border: 1px solid #5e6488;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: #5e6488;
+    font-weight: 400;
+    line-height: 16px;
+
+    input {
+        appearance: none;
+        outline: none;
+        border: none;
+        background: transparent;
+        color: #03050f;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+
+        &::placeholder {
+            color: #03050f;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+
+.no-radius-tl {
+    border-top-left-radius: 0px;
+}
+  
+.no-radius-bl {
+    border-bottom-left-radius: 0px;
+}
+  
+.no-border-left {
+    border-left: none;
+}
+
+.errorB {
+    border: 1px solid #e9163c;
+}
