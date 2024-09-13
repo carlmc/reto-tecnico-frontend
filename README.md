@@ -2,7 +2,7 @@
 
 En este repositorio, se encuentra el reto técnico de la empresa Rímac Seguros, el cual está desarrollado en React, una libería de Javascript.\
 Para los estilos, se hace el uso de la librería Sass, utilizando la metodología BEM.\
-Este proyecto está desplegado en el siguiente link: [[https://reto-frontend-web.netlify.app/](https://reto-frontend-web.netlify.app).
+Este proyecto está desplegado en el siguiente link: [https://reto-frontend-web.netlify.app/](https://reto-frontend-web.netlify.app).
 
 ## Explicación del funcionamiento del proyecto
 
